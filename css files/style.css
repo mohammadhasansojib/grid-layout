@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    font-size: 62.5%;
+
+    scroll-behavior: smooth;
+}
+
+.whole-padding{
+    padding: 0 10%;
+}
+
+
+
+
+/*=============NAVBAR SECTION START=============*/
+.header nav{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+.header nav .logo{
+    font-size: 4rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+.header nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.header nav ul li a{
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.header nav .menu-icon{
+    width: 40px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    position: relative;
+
+    display: none;
+}
+.header nav .menu-icon img{
+    color: black;
+    width: 25px;
+    height: 15px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*=============NAVBAR SECTION END=============*/
+
+
+
+
+
+
+
+
+
+/*============= HERO SECTION START=============*/
+.hero-sec{
+    padding: 70px 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 45%);
+    grid-template-rows: repeat(1, 300px);
+    grid-auto-rows: 300px;
+
+    grid-gap: 50px;
+    background-color: rgb(255, 237, 241);
+
+    justify-content: center;
+}
+.hero-sec .text-sec,
+.hero-sec .img-sec{
+    font-size: 4rem;
+    font-weight: 800;
+    background-color: crimson;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 110px;
+}
+/*=============HERO SECTION END=============*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============ABOUT SECTION START=============*/
+.about-sec{
+    padding: 50px 10%;
+    background-color: rgb(241, 255, 250);
+
+    
+}
+.about-sec h2{
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about-sec .rapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 45%);
+    grid-auto-rows: 300px;
+
+    grid-gap: 50px;
+
+    justify-content: center;
+}
+.about-sec .rapper .img-sec,
+.about-sec .rapper .text-sec{
+    background-color: mediumaquamarine;
+    border-radius: 30px;
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding-top: 110px;
+}
+/*=============ABOUT SECTION END=============*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============SERVICE SECTION START=============*/
+.service-sec{
+    padding: 50px 10%;
+
+    background-color: rgb(255, 240, 247);
+}
+.service-sec h2{
+    font-size: 4.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.service-sec .rapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30%);
+    grid-auto-rows: 300px;
+
+    justify-content: center;
+    grid-gap: 30px;
+}
+.service-sec .rapper .card{
+    font-weight:  800;
+    font-size: 4rem;
+    text-align: center;
+    background-color: hotpink;
+    color: white;
+    border-radius: 30px;
+    padding-top: 110px;
+
+}
+/*=============SERVICE SECTION END=============*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============PORTFOLIO SECTION START=============*/
+.portfolio-sec{
+    padding: 50px 10%;
+    background-color: rgb(235, 255, 245);
+}
+.portfolio-sec h2{
+    font-size: 4.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.portfolio-sec .rapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 23%);
+    grid-auto-rows: 300px;
+
+    grid-gap: 20px;
+    justify-content: center;
+}
+.portfolio-sec .rapper .card{
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+    background-color: springgreen;
+    border-radius: 30px;
+    padding-top: 110px;
+    text-align: center;
+}
+/*=============PORTFOLIO SECTION END=============*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============CONTACT SECTION START=============*/
+.contact-sec{
+    padding: 50px 10%;
+    background-color: rgb(255, 238, 235);
+}
+.contact-sec h2{
+    font-size: 4.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-sec .rapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 45%);
+    grid-auto-rows: 300px;
+
+    grid-gap: 50px;
+
+    justify-content: center;
+
+}
+.contact-sec .rapper .card{
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    background-color: tomato;
+    border-radius: 30px;
+    padding-top: 110px;
+}
+/*=============CONTACT SECTION END=============*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============MEDIA QUERI START=============*/
+@media screen and (max-width: 1440px){
+    .header nav .logo{
+        font-size: 4rem;
+    }
+    .header nav ul li{
+        margin: 0 5px;
+    }
+    .header nav ul li a{
+        font-size: 1.6rem;
+        padding: 8px 15px;
+    }
+
+
+    .hero-sec .text-sec,
+    .hero-sec .img-sec{
+        font-size: 3.5rem;;
+    }
+
+
+    .about-sec h2{
+        font-size: 4rem;
+    }
+    .about-sec .rapper .img-sec,
+    .about-sec .rapper .text-sec{
+        font-size: 3.5rem;
+    }
+
+
+    .service-sec h2{
+        font-size: 4rem;
+    }
+    .service-sec .rapper .card{
+        font-size: 3.5rem;
+    }
+
+
+    .portfolio-sec h2{
+        font-size: 4rem;
+    }
+    .portfolio-sec .rapper .card{
+        font-size: 3.5rem;
+    }
+
+
+
+    .contact-sec h2{
+        font-size: 4rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+    .header nav .logo{
+        font-size: 3rem;
+    }
+    .header nav ul li{
+        margin: 0 5px;
+    }
+    .header nav ul li a{
+        font-size: 1.4rem;
+        padding: 5px 10px;
+    }
+
+
+    .hero-sec .text-sec,
+    .hero-sec .img-sec{
+        font-size: 3.2rem;;
+    }
+
+
+    .about-sec h2{
+        font-size: 3.5rem;
+    }
+    .about-sec .rapper .img-sec,
+    .about-sec .rapper .text-sec{
+        font-size: 3.2rem;
+    }
+
+
+
+    .service-sec h2{
+        font-size: 3.5rem;
+    }
+    .service-sec .rapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 45%);
+
+        grid-gap: 50px;
+    }
+    .service-sec .rapper .card{
+        font-size: 3.2rem;
+    }
+
+
+
+    .portfolio-sec h2{
+        font-size: 3.5rem;
+    }
+    .portfolio-sec .rapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 45%);
+    
+        grid-gap: 50px;
+    }
+    .portfolio-sec .rapper .card{
+        font-size: 3.2rem;
+    }
+    
+
+
+    .contact-sec h2{
+        font-size: 3.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .header nav{
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        
+    
+        align-items: center;
+        justify-content: space-between;
+        justify-items: center;
+    }
+    .header nav ul{
+        grid-area: 2/1/3/-1;
+        width: 100%;
+        height: 0;
+        visibility: hidden;
+        z-index: 0;
+        
+    }
+    #check:checked ~ ul{
+        height: 100%;
+        visibility: visible;
+    }
+    .header nav ul li{
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .header nav ul li a{
+        display: block;
+    }
+    .header nav .menu-icon{
+        display: inline-block;
+        cursor: pointer;
+    }
+
+
+
+    .hero-sec{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 100%);
+    }
+    .hero-sec .text-sec,
+    .hero-sec .img-sec{
+        font-size: 3rem;;
+    }
+
+    .about-sec .rapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 100%);
+
+        justify-content: center;
+    }
+    .about-sec .rapper .img-sec,
+    .about-sec .rapper .text-sec{
+        font-size: 3rem;
+    }
+
+
+
+
+    .service-sec .rapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 100%);
+    }
+
+
+
+    .service-sec .rapper .card{
+        font-size: 3rem;
+    }
+
+
+
+
+    .portfolio-sec .rapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 100%);
+    
+        grid-gap: 50px;
+    }
+
+
+
+    .contact-sec .rapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 100%);
+    
+    }
+}
+
+
+
+/*=============MEDIA QUERI END=============*/

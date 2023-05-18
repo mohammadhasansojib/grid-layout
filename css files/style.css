@@ -29,6 +29,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 10%;
+
+    position: relative;
 }
 .header nav .logo{
     font-size: 4rem;
